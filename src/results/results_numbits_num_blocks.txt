@@ -1,0 +1,660 @@
+16	512
+MEN
+MEN
+Test Loss = 9.367726
+Test Loss = 9.174150
+Spearman scores Decoder:
+0.7454334534692333
+Spearman scores Binary:
+0.7304568302473202
+RW
+RW
+Test Loss = 9.382709
+Test Loss = 9.307627
+Spearman scores Decoder:
+0.4537320907214503
+Spearman scores Binary:
+0.42816603436427614
+SimLex
+SimLex
+Test Loss = 9.046955
+Test Loss = 9.154794
+Spearman scores Decoder:
+0.39513932703989585
+Spearman scores Binary:
+0.3844538204217381
+WS353
+WS353
+Test Loss = 9.085662
+Test Loss = 9.222006
+Spearman scores Decoder:
+0.6246761548961243
+Spearman scores Binary:
+0.6009522859017948
+16	256
+MEN
+MEN
+Test Loss = 12.758996
+Test Loss = 12.799625
+Spearman scores Decoder:
+0.7087068031901597
+Spearman scores Binary:
+0.6927476230492482
+RW
+RW
+Test Loss = 12.523054
+Test Loss = 12.344714
+Spearman scores Decoder:
+0.3806937676187717
+Spearman scores Binary:
+0.3687180474105436
+SimLex
+SimLex
+Test Loss = 12.474678
+Test Loss = 12.507704
+Spearman scores Decoder:
+0.3702788231889861
+Spearman scores Binary:
+0.35305492773860353
+WS353
+WS353
+Test Loss = 12.846823
+Test Loss = 12.679791
+Spearman scores Decoder:
+0.5879731396764332
+Spearman scores Binary:
+0.5690376555471548
+16	128
+MEN
+MEN
+Test Loss = 14.546975
+Test Loss = 14.578133
+Spearman scores Decoder:
+0.4907209649016524
+Spearman scores Binary:
+0.5031569681187078
+RW
+RW
+Test Loss = 14.981174
+Test Loss = 14.872714
+Spearman scores Decoder:
+0.25371679406494424
+Spearman scores Binary:
+0.26618176805527344
+SimLex
+SimLex
+Test Loss = 14.571495
+Test Loss = 14.697148
+Spearman scores Decoder:
+0.22002844172292202
+Spearman scores Binary:
+0.2299319601570766
+WS353
+WS353
+Test Loss = 14.752663
+Test Loss = 14.760077
+Spearman scores Decoder:
+0.42551532351540833
+Spearman scores Binary:
+0.43089329735944265
+16	64
+MEN
+MEN
+Test Loss = 16.822097
+Test Loss = 16.775976
+Spearman scores Decoder:
+0.39310199613698654
+Spearman scores Binary:
+0.3617548869402427
+RW
+RW
+Test Loss = 16.370274
+Test Loss = 16.650667
+Spearman scores Decoder:
+0.22840199973683722
+Spearman scores Binary:
+0.20670444674432478
+SimLex
+SimLex
+Test Loss = 16.861935
+Test Loss = 16.699088
+Spearman scores Decoder:
+0.16803051716883297
+Spearman scores Binary:
+0.1428597620937628
+WS353
+WS353
+Test Loss = 17.128295
+Test Loss = 16.911677
+Spearman scores Decoder:
+0.17121322754740415
+Spearman scores Binary:
+0.17112637001763872
+8	512
+MEN
+MEN
+Test Loss = 9.313924
+Test Loss = 9.309418
+Spearman scores Decoder:
+0.7492167693535949
+Spearman scores Binary:
+0.7403137484448412
+RW
+RW
+Test Loss = 8.888165
+Test Loss = 9.167373
+Spearman scores Decoder:
+0.44423062872812075
+Spearman scores Binary:
+0.4345257140259171
+SimLex
+SimLex
+Test Loss = 9.116894
+Test Loss = 9.007747
+Spearman scores Decoder:
+0.4093106251798951
+Spearman scores Binary:
+0.3857310816141496
+WS353
+WS353
+Test Loss = 9.195215
+Test Loss = 8.914926
+Spearman scores Decoder:
+0.6434516357892581
+Spearman scores Binary:
+0.6188529972370553
+8	256
+MEN
+MEN
+Test Loss = 12.076410
+Test Loss = 12.011656
+Spearman scores Decoder:
+0.6927184781565159
+Spearman scores Binary:
+0.6909641543928836
+RW
+RW
+Test Loss = 12.343215
+Test Loss = 12.033392
+Spearman scores Decoder:
+0.392363270900203
+Spearman scores Binary:
+0.40435660599951984
+SimLex
+SimLex
+Test Loss = 11.942615
+Test Loss = 11.918470
+Spearman scores Decoder:
+0.36098859536442834
+Spearman scores Binary:
+0.356737984437976
+WS353
+WS353
+Test Loss = 11.971853
+Test Loss = 11.802768
+Spearman scores Decoder:
+0.5719710010545969
+Spearman scores Binary:
+0.5647100475543037
+8	128
+MEN
+MEN
+Test Loss = 14.331636
+Test Loss = 14.310577
+Spearman scores Decoder:
+0.5231789418732447
+Spearman scores Binary:
+0.5907859543409387
+RW
+RW
+Test Loss = 14.840327
+Test Loss = 14.506755
+Spearman scores Decoder:
+0.2541895212684815
+Spearman scores Binary:
+0.30461081650667315
+SimLex
+SimLex
+Test Loss = 14.440266
+Test Loss = 14.669264
+Spearman scores Decoder:
+0.25840086570420245
+Spearman scores Binary:
+0.3090637110823275
+WS353
+WS353
+Test Loss = 14.101355
+Test Loss = 14.636751
+Spearman scores Decoder:
+0.42460672953770806
+Spearman scores Binary:
+0.4486920088947504
+8	64
+MEN
+MEN
+Test Loss = 15.335553
+Test Loss = 15.422187
+Spearman scores Decoder:
+0.27928167679334154
+Spearman scores Binary:
+0.369021278142641
+RW
+RW
+Test Loss = 15.790240
+Test Loss = 15.421577
+Spearman scores Decoder:
+0.15709351722848128
+Spearman scores Binary:
+0.20366697930017919
+SimLex
+SimLex
+Test Loss = 15.230611
+Test Loss = 15.255890
+Spearman scores Decoder:
+0.09009610469646319
+Spearman scores Binary:
+0.13926626347389595
+WS353
+WS353
+Test Loss = 15.433025
+Test Loss = 15.278722
+Spearman scores Decoder:
+0.2466986661960707
+Spearman scores Binary:
+0.28648977652212937
+4	512
+MEN
+MEN
+Test Loss = 8.233074
+Test Loss = 8.517746
+Spearman scores Decoder:
+0.7424090905907988
+Spearman scores Binary:
+0.7383685581334314
+RW
+RW
+Test Loss = 8.690684
+Test Loss = 8.964800
+Spearman scores Decoder:
+0.4417721527006287
+Spearman scores Binary:
+0.4328451382493991
+SimLex
+SimLex
+Test Loss = 8.398175
+Test Loss = 8.334171
+Spearman scores Decoder:
+0.3867251966290167
+Spearman scores Binary:
+0.3791769159195938
+WS353
+WS353
+Test Loss = 8.267333
+Test Loss = 8.517150
+Spearman scores Decoder:
+0.6510241034618286
+Spearman scores Binary:
+0.6516474645289199
+4	256
+MEN
+MEN
+Test Loss = 11.871690
+Test Loss = 11.945940
+Spearman scores Decoder:
+0.6556539289368727
+Spearman scores Binary:
+0.7020435751215056
+RW
+RW
+Test Loss = 12.266607
+Test Loss = 12.196869
+Spearman scores Decoder:
+0.34988000762422483
+Spearman scores Binary:
+0.39780735118854055
+SimLex
+SimLex
+Test Loss = 12.349524
+Test Loss = 12.274827
+Spearman scores Decoder:
+0.3567249265002514
+Spearman scores Binary:
+0.3817630038622074
+WS353
+WS353
+Test Loss = 12.485808
+Test Loss = 12.075074
+Spearman scores Decoder:
+0.5985853194338935
+Spearman scores Binary:
+0.6076379965765617
+4	128
+MEN
+MEN
+Test Loss = 14.793306
+Test Loss = 14.516366
+Spearman scores Decoder:
+0.47051581558847516
+Spearman scores Binary:
+0.606064786838018
+RW
+RW
+Test Loss = 14.594991
+Test Loss = 14.929394
+Spearman scores Decoder:
+0.21687325128352322
+Spearman scores Binary:
+0.3183123999299443
+SimLex
+SimLex
+Test Loss = 15.129363
+Test Loss = 15.112634
+Spearman scores Decoder:
+0.22449813574825103
+Spearman scores Binary:
+0.28687271447415175
+WS353
+WS353
+Test Loss = 15.312765
+Test Loss = 15.257528
+Spearman scores Decoder:
+0.36009751471169316
+Spearman scores Binary:
+0.454159378209896
+4	64
+MEN
+MEN
+Test Loss = 15.489431
+Test Loss = 15.599282
+Spearman scores Decoder:
+0.2983383714267381
+Spearman scores Binary:
+0.44779545326240805
+RW
+RW
+Test Loss = 16.022132
+Test Loss = 15.424553
+Spearman scores Decoder:
+0.1736265885430983
+Spearman scores Binary:
+0.27638850754928057
+SimLex
+SimLex
+Test Loss = 15.479315
+Test Loss = 15.668940
+Spearman scores Decoder:
+0.0971958843699092
+Spearman scores Binary:
+0.1991024307696093
+WS353
+WS353
+Test Loss = 15.378209
+Test Loss = 15.455068
+Spearman scores Decoder:
+0.2799096673226507
+Spearman scores Binary:
+0.41791760719196686
+2	512
+MEN
+MEN
+Test Loss = 9.153541
+Test Loss = 9.298675
+Spearman scores Decoder:
+0.7448281514338976
+Spearman scores Binary:
+0.7454192030541478
+RW
+RW
+Test Loss = 10.509552
+Test Loss = 9.501453
+Spearman scores Decoder:
+0.43226873433585766
+Spearman scores Binary:
+0.42828525249969523
+SimLex
+SimLex
+Test Loss = 9.283243
+Test Loss = 9.414853
+Spearman scores Decoder:
+0.39616471656588087
+Spearman scores Binary:
+0.39529858308086047
+WS353
+WS353
+Test Loss = 9.416498
+Test Loss = 9.315912
+Spearman scores Decoder:
+0.6532943914177016
+Spearman scores Binary:
+0.6490374456546614
+2	256
+MEN
+MEN
+Test Loss = 13.724078
+Test Loss = 13.970316
+Spearman scores Decoder:
+0.64394101970983
+Spearman scores Binary:
+0.7115311786131135
+RW
+RW
+Test Loss = 12.903390
+Test Loss = 13.234743
+Spearman scores Decoder:
+0.3359805908196748
+Spearman scores Binary:
+0.41456367576928155
+SimLex
+SimLex
+Test Loss = 12.972496
+Test Loss = 13.018516
+Spearman scores Decoder:
+0.29891651947431147
+Spearman scores Binary:
+0.33672794589266375
+WS353
+WS353
+Test Loss = 12.834147
+Test Loss = 12.699862
+Spearman scores Decoder:
+0.5875455754280124
+Spearman scores Binary:
+0.6265192614121334
+2	128
+MEN
+MEN
+Test Loss = 15.511030
+Test Loss = 15.372495
+Spearman scores Decoder:
+0.4445237977597908
+Spearman scores Binary:
+0.63085985499728
+RW
+RW
+Test Loss = 15.451943
+Test Loss = 15.879365
+Spearman scores Decoder:
+0.20952269403690524
+Spearman scores Binary:
+0.3358399069093568
+SimLex
+SimLex
+Test Loss = 15.762173
+Test Loss = 15.593008
+Spearman scores Decoder:
+0.2576550551022836
+Spearman scores Binary:
+0.35968590331440936
+WS353
+WS353
+Test Loss = 15.162955
+Test Loss = 15.216297
+Spearman scores Decoder:
+0.4406387130697552
+Spearman scores Binary:
+0.5492756088922635
+2	64
+MEN
+MEN
+Test Loss = 16.386541
+Test Loss = 16.140736
+Spearman scores Decoder:
+0.35434798533534795
+Spearman scores Binary:
+0.4986776096291193
+RW
+RW
+Test Loss = 16.423296
+Test Loss = 16.534735
+Spearman scores Decoder:
+0.1844178697921125
+Spearman scores Binary:
+0.26892830654221306
+SimLex
+SimLex
+Test Loss = 16.233684
+Test Loss = 16.232668
+Spearman scores Decoder:
+0.13170547800598598
+Spearman scores Binary:
+0.23317105281790196
+WS353
+WS353
+Test Loss = 16.572093
+Test Loss = 16.468063
+Spearman scores Decoder:
+0.2985403924213399
+Spearman scores Binary:
+0.4479231922004847
+1	512
+MEN
+MEN
+Test Loss = 16.675706
+Test Loss = 17.015839
+Spearman scores Decoder:
+0.7070915047548405
+Spearman scores Binary:
+0.7463674784330879
+RW
+RW
+Test Loss = 18.017547
+Test Loss = 17.321418
+Spearman scores Decoder:
+0.3836682379393921
+Spearman scores Binary:
+0.43466379216052425
+SimLex
+SimLex
+Test Loss = 17.526634
+Test Loss = 17.458102
+Spearman scores Decoder:
+0.3663215602305578
+Spearman scores Binary:
+0.3959022962860288
+WS353
+WS353
+Test Loss = 18.281391
+Test Loss = 18.506400
+Spearman scores Decoder:
+0.6022066082717678
+Spearman scores Binary:
+0.6436107025752926
+1	256
+MEN
+MEN
+Test Loss = 18.226070
+Test Loss = 18.307213
+Spearman scores Decoder:
+0.5926646561260043
+Spearman scores Binary:
+0.7135755817823062
+RW
+RW
+Test Loss = 18.828835
+Test Loss = 19.096936
+Spearman scores Decoder:
+0.30405526722812815
+Spearman scores Binary:
+0.40314108033542945
+SimLex
+SimLex
+Test Loss = 18.825189
+Test Loss = 18.535072
+Spearman scores Decoder:
+0.2823299653928508
+Spearman scores Binary:
+0.3624786313877929
+WS353
+WS353
+Test Loss = 19.824040
+Test Loss = 19.456031
+Spearman scores Decoder:
+0.5505942250196157
+Spearman scores Binary:
+0.6240334236410657
+1	128
+MEN
+MEN
+Test Loss = 21.577177
+Test Loss = 22.045670
+Spearman scores Decoder:
+0.4415146878120912
+Spearman scores Binary:
+0.6202743017150006
+RW
+RW
+Test Loss = 21.279238
+Test Loss = 21.835354
+Spearman scores Decoder:
+0.2285546104939987
+Spearman scores Binary:
+0.3509927870262167
+SimLex
+SimLex
+Test Loss = 20.864259
+Test Loss = 20.804754
+Spearman scores Decoder:
+0.22082520795490093
+Spearman scores Binary:
+0.3500939286098482
+WS353
+WS353
+Test Loss = 20.229360
+Test Loss = 20.754249
+Spearman scores Decoder:
+0.4568647683173975
+Spearman scores Binary:
+0.5640460994013026
+1	64
+MEN
+MEN
+Test Loss = 21.839017
+Test Loss = 22.012389
+Spearman scores Decoder:
+0.4324161147922678
+Spearman scores Binary:
+0.555459794517522
+RW
+RW
+Test Loss = 22.404535
+Test Loss = 21.715437
+Spearman scores Decoder:
+0.21518351577356762
+Spearman scores Binary:
+0.3029430649371982
+SimLex
+SimLex
+Test Loss = 21.340186
+Test Loss = 21.381809
+Spearman scores Decoder:
+0.1716063421995732
+Spearman scores Binary:
+0.24229584097523413
+WS353
+WS353
+Test Loss = 22.071583
+Test Loss = 21.112537
+Spearman scores Decoder:
+0.2576249357037707
+Spearman scores Binary:
+0.40215705600065665

@@ -1,0 +1,32 @@
+MEN
+Test Loss = 18.754522
+Test Loss = 19.782512
+Spearman scores Decoder:
+0.7628731572397464
+Spearman scores Binary:
+0.7676463053188056
+python3 main.py --num_bits=640 --dataset=MEN --is_train=0
+RW
+Test Loss = 20.336439
+Test Loss = 19.958804
+Spearman scores Decoder:
+0.5115505280633939
+Spearman scores Binary:
+0.519096897617689
+python3 main.py --num_bits=640 --dataset=RW --is_train=0
+SimLex
+Test Loss = 18.444992
+Test Loss = 18.394837
+Spearman scores Decoder:
+0.4395629352031819
+Spearman scores Binary:
+0.4413748822151123
+python3 main.py --num_bits=640 --dataset=SimLex --is_train=0
+WS353
+Test Loss = 19.126763
+Test Loss = 18.804340
+Spearman scores Decoder:
+0.6542283544659921
+Spearman scores Binary:
+0.6568054074377763
+python3 main.py --num_bits=640 --dataset=WS353 --is_train=0
