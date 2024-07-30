@@ -26,8 +26,6 @@ class BinaryEmbeddings(nn.Module):
         self.embedding_size = opt["embedding_size"]
         self.lambd_weight_regularisation = opt["lambd_weight_regularisation"]
         self.lambd_cosine_regularisation = opt["lambd_cosine_regularisation"]
-        self.lambd_john_regularisation = opt["lambd_john_regularisation"]
-        self.lambd_sourav_regularisation = opt["lambd_sourav_regularisation"]
 
         self.encoder = Encoder(opt)
         self.loss = nn.MSELoss(reduction="mean")
@@ -42,17 +40,16 @@ class BinaryEmbeddings(nn.Module):
         encoder_input_left = word_embeddings_left.to(self.device)
         encoder_input_right = word_embeddings_right.to(self.device)
         binary_output_left, decoder_output_left, binary_output_right, decoder_output_right, \
-            binary_cosine, binary_cosine_mean, true_cosine, true_cosine_blocks = self.encoder(encoder_input_left, encoder_input_right)
+            binary_cosine, true_cosine = self.encoder(encoder_input_left, encoder_input_right)
 
         autoencoder_loss_left = self.loss(encoder_input_left, decoder_output_left)
         autoencoder_loss_right = self.loss(encoder_input_right, decoder_output_right)
-        binary_loss_john = self.loss(torch.exp(binary_cosine_mean), torch.exp(true_cosine))
-        binary_loss_sourav = self.loss(torch.exp(binary_cosine), torch.exp(true_cosine_blocks))
+        binary_loss = self.loss(torch.exp(binary_cosine), torch.exp(true_cosine))
         regularization_weight_encoder = torch.matmul(self.encoder.W_encoder, torch.t(self.encoder.W_encoder))
         regularization_weight_decoder = torch.matmul(self.encoder.W_decoder, torch.t(self.encoder.W_decoder))
         regularization_loss = 0.5 * torch.norm(regularization_weight_encoder - self.encoder.I) + 0.5 * torch.norm(regularization_weight_decoder - self.encoder.I)
         total_loss = 0.5*(autoencoder_loss_left + autoencoder_loss_right)+ self.lambd_weight_regularisation * regularization_loss \
-                        + self.lambd_cosine_regularisation * (self.lambd_john_regularisation*binary_loss_john + self.lambd_sourav_regularisation*binary_loss_sourav)
+                        + self.lambd_cosine_regularisation *binary_loss
         if train == True:
             self.optimizer.zero_grad()
             total_loss.backward()

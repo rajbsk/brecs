@@ -9,7 +9,6 @@ from trainer import *
 from utils import *
 from dataset import *
 import argparse
-import pickle
 import pandas as pd
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -18,22 +17,17 @@ def main(args):
     embedding_name = args.embedding_name
     num_bits = args.num_bits
     train = args.is_train
-    num_blocks = args.num_blocks
     lambd_weight_regularisation = args.lambd_weight_regularisation
-    lambd_cosine_regularisation = args.lambd_cosine_regularisation
-    lambd_john_regularisation = args.lambd_john_regularisation
-    lambd_sourav_regularisation = args.lambd_sourav_regularisation
-    
+    lambd_cosine_regularisation = args.lambd_cosine_regularisation    
     
     model_directory ="models/"
     create_folder_if_not_exists(model_directory)
     model_name = "models/brecs_"+str(embedding_name)+"_"+str(num_bits)+"_l1"+str(lambd_weight_regularisation)+"_l2"+str(lambd_cosine_regularisation)+\
-                    "_nb"+str(num_blocks)+"_jr"+str(lambd_john_regularisation)+"_sr"+str(lambd_sourav_regularisation)+".bin"
+                    ".bin"
     word_vectors = load_embedding(embedding_name)
     print(model_name)
     opt = {"lr":0.001, "num_bits": num_bits, "batch_size": 256, "word_vectors": word_vectors, "epochs": 5, "device": device, 
-            "num_blocks": num_blocks, "lambd_weight_regularisation": lambd_weight_regularisation, "lambd_cosine_regularisation": lambd_cosine_regularisation,
-            "lambd_john_regularisation": lambd_john_regularisation, "lambd_sourav_regularisation":lambd_sourav_regularisation,
+            "lambd_weight_regularisation": lambd_weight_regularisation, "lambd_cosine_regularisation": lambd_cosine_regularisation,
             "embedding_size": word_vectors.vector_size}
 
     if train == True:
@@ -66,9 +60,7 @@ def main(args):
             eval_spearman_binary, _ = spearmanr(scores, decoder_binary_scores.to("cpu"))
             all_scores.append(eval_spearman_cosine)
             all_scores.append(eval_spearman_binary)
-        print(all_scores)
         column_names = get_df_column_names(dataset_names)
-        print(column_names)
         results = pd.DataFrame([all_scores], columns = column_names)
         results.to_csv("results/"+model_name.strip("models/")+".tsv", sep="\t", index=False)
 
@@ -89,27 +81,12 @@ if __name__=="__main__":
                         required=True,
                         default=1,
                         help='Dataset Directory')
-    parser.add_argument('--num_blocks', 
-                        type=int,
-                        required=True,
-                        default=4,
-                        help='Dataset Directory')
     parser.add_argument('--lambd_weight_regularisation', 
                         type=float,
                         required=True,
                         default=0.5,
                         help='Dataset Directory')
     parser.add_argument('--lambd_cosine_regularisation', 
-                        type=float,
-                        required=True,
-                        default=0.5,
-                        help='Dataset Directory')
-    parser.add_argument('--lambd_john_regularisation', 
-                        type=float,
-                        required=True,
-                        default=0.5,
-                        help='Dataset Directory')
-    parser.add_argument('--lambd_sourav_regularisation', 
                         type=float,
                         required=True,
                         default=0.5,
